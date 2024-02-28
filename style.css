@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    gap: 24px;
+    padding: 12px
+}
+
+.logo {
+    margin-right: auto;
+}
+
+nav {
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+nav button {
+    border: 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+nav button:hover path {
+    fill: #ffffff;
+}
+
+nav button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* main vídeos*/
+img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.avatar {
+    width: 32px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.info-canal {
+    display: flex;
+    padding: 10px;
+    padding-bottom: 20px;
+
+    gap: 12px;
+}
+
+.info-video {
+    display: grid;
+}
+
+.info-video h6 {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.info-video p {
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 8px;
+}
+
+footer div {
+    display: grid;
+    justify-items: center;
+}
+
+footer div span {
+    font-size: 10px;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 50%;
+}
